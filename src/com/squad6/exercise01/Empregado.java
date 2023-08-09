@@ -41,7 +41,7 @@ public class Empregado extends Pessoa {
 	}
 	
 	public double calcularSalario() {
-		return this.salarioBase - (this.salarioBase * this.imposto / 100);
+		return this.salarioBase - (this.salarioBase * this.imposto) / 100;
 	}
 
 }
